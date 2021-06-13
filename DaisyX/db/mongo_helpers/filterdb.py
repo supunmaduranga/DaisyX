@@ -5,7 +5,7 @@ from DaisyX.services.mongo2 import db
 filtersdb = db.filters
 
 
-""" Filters funcions """
+""" 📝 Filters funcions 📝"""
 
 
 async def _get_filters(chat_id: int) -> Dict[str, int]:
